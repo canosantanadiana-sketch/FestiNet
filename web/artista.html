@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon32.png">
+    <title>FestiNet</title>
+<link href="estilos/estilos.css" rel="stylesheet"></a>
+<link href="estilos/estilos_3.css" rel="stylesheet"></a>
+    <link href="estilos/root.css" rel="stylesheet"></a>
+    <script src="js/animaciones.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container nav-inner">
+            <a href="main.html"><img src="img/logo.png" class="logo" alt=""></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="main.html">Inicio</a></li>
+                <li><a href="locales.html">Locales</a></li>
+                <li><a href="artista.html">Artista</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+
+                <li><button class="btn btn-primary" style="padding:.5rem 1.2rem"
+                        onclick="openModal('login')">Entrar</button></li>
+            </ul>
+            <button class="burger" id="burger" aria-label="menú">☰</button>
+        </div>
+    </nav>
+    <!-- artista -->
+    <section class="artistap">
+        <h2>Nuestros mejores artistas</h2>
+        <div class="artista_fav">
+            <article>
+                <a href="#"><img src="img/yan.jpg" alt="" class="FOTO_DESTACADO"></a>
+                <h3>Yan Block</h3>
+                <p>Urbano</p>                                                        
+            </article>
+            <article>
+                <a href="#"><img src="img/grecas.jpg" class="FOTO_DESTACADO" alt=""></a>
+                <h3>GRECAS</h3>
+                <p> Urbano</p>
+              
+            </article>
+            <article>
+                <a href="#"><img src="img/Kasedios.jpg" class="FOTO_DESTACADO" alt=""></a>
+                <h3>Kase.O</h3>
+                <p>Urbano</p>
+                
+            </article>
+        </div>
+        <h2>Otros artistas</h2>
+        <div class="artista">
+            <article class="miniartista">
+                <a href="#"><img src="img/cantanted.png" class="FOTO_DESTACADO" alt=""></a>
+                <h3>Wild Echoes</h3>
+                <p> Indie</p>
+                
+            </article>
+            <article class="miniartista">
+                <a href="#"><img src="img/cantanted.png" class="FOTO_DESTACADO" alt=""></a>
+                <h3>Ariana Nova</h3>
+                <p> Pop</p>
+                
+            </article>
+            <article class="miniartista">
+                <a href="#"><img src="img/cantanted.png" class="FOTO_DESTACADO" alt=""></a>
+                <h3>Digital Storm</h3>
+                <p> Electrónica</p>
+                
+            </article>
+            <article class="miniartista">
+                <a href="#"><img src="img/cantanted.png" class="FOTO_DESTACADO" alt=""></a>
+                <h3>Blue River Quartet</h3>
+                <p> Jazz</p>
+                
+            </article>
+
+            <article class="miniartista">
+                <a href="#"><img src="img/cantanted.png" class="FOTO_DESTACADO" alt=""></a>
+                <h3>Thunder Wolves</h3>
+                <p> Rock</p>
+               
+            </article>
+
+            <article class="miniartista">
+                <a href="#"><img src="img/cantanted.png" class="FOTO_DESTACADO" alt=""></a>
+                <h3>Crystal Pines</h3>
+                <p> Indie</p>
+                
+            </article>
+
+
+            <article class="miniartista">
+                <a href="#"><img src="img/cantanted.png" class="FOTO_DESTACADO" alt=""></a>
+                <h3>DJ Quantum</h3>
+                <p> Electrónica</p>
+              
+            </article>
+
+            <article class="miniartista">
+                <a href="#"><img src="img/cantanted.png" class="FOTO_DESTACADO" alt=""></a>
+                <h3>Valeria Moon</h3>
+                <p> Pop</p>
+                
+            </article>
+
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div class="container foot">
+            <div><img class="logo" src="img/Designer (3).png" alt="">
+                <p style="margin-top:.4rem">La red del evento en vivo.</p>
+            </div>
+            <div>📧 hola@festinet.com<br>📞 +34 900 123 456</div>
+            <div>© 2026 FestiNET · Aviso legal · Privacidad · Cookies</div>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-box">
+            <button class="close" onclick="closeModal()">✕</button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
