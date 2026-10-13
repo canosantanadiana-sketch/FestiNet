@@ -57,8 +57,9 @@
 /* TABLETS */
 @media (min-width: 425px) {
 
-    .local {
-        grid-template-columns: repeat(2, 1fr);
+    .local { display :flex;
+        flex-direction: column;
+        align-items: center;
         gap: 20px;
     }
 
