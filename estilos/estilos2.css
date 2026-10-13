@@ -54,24 +54,8 @@
     word-break: break-word;
 }
 
-.minilocal button,
-.mini button {
-    width: 100%;
-    background-color: #7c4dff;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.minilocal button:hover,
-.mini button:hover {
-    background-color: #6b3ff0;
-}
-
 /* TABLETS */
-@media (max-width: 768px) {
+@media (min-width: 425px) {
 
     .local {
         grid-template-columns: repeat(2, 1fr);
