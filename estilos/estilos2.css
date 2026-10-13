@@ -84,9 +84,3 @@
     }
 }
 
-/* MÓVILES */
-@media (max-width: 425px) {
-
-    .local {
-        grid-template-columns: 1fr;
-}}
