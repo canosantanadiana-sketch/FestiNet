@@ -1,0 +1,48 @@
+.artistap {
+    text-align: center;
+}
+
+.artistap h2 {
+    margin: 20px;
+}
+
+/* GRID RESPONSIVE */
+.artista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.artista_fav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+    background:
+        radial-gradient(ellipse at 50% -10%, rgba(124, 92, 255, .35), transparent 60%),
+        radial-gradient(ellipse at 80% 110%, rgba(0, 224, 184, .18), transparent 55%),
+        var(--bg);
+}
+
+.artista_fav article {
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+  .FOTO_DESTACADO {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+
+    display: block;
+    margin: 0 auto;
+}
